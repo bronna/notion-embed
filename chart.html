@@ -1,7 +1,0 @@
-<div id="observablehq-9df08f2c"></div>
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@bronna/history-of-usa-government-spending.js?v=3";
-const inspect = Inspector.into("#observablehq-9df08f2c");
-(new Runtime).module(define, name => name === "chart" ? inspect() : undefined);
-</script>
